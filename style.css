@@ -1,0 +1,103 @@
+body {
+  font-family: 'Manrope', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  padding: 20px 142px !important;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+  font-weight: 500;
+}
+
+.nav-link {
+  padding-right: 0px !important;
+  padding-left: 4rem !important;
+}
+
+/* Hero */
+
+.hero-container {
+  background: url('./asset/Background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.hero-content {
+  display: flex;
+  padding: 120px 142px;
+}
+
+.hero-title {
+  width: 70%;
+}
+
+.hero-title h1 {
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 98px;
+  color: #18191f;
+}
+.hero-button {
+  margin-top: 30px;
+  background-color: #5994ec;
+  padding: 18px 40px;
+  color: #fff;
+  width: 190px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.hero-images {
+  width: 60%;
+}
+
+.hero-images img {
+  width: 100%;
+  position: relative;
+  right: -40px;
+}
+
+/* Section about */
+.section-about {
+  display: flex;
+  padding: 100px 142px;
+}
+
+.section-about-images {
+  width: 50%;
+}
+
+.section-about-images img {
+  width: 80%;
+}
+
+.section-about-description {
+  width: 50%;
+  padding: 50px 0;
+}
+
+.section-about-description-title {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.section-about-description-content {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 40px;
+  padding: 15px 0;
+}
+
+.section-about-description-button {
+  color: #5994ec;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+}
