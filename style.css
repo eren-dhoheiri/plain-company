@@ -103,41 +103,34 @@ body {
   font-size: 20px;
 }
 /* our services */
-.section-ourservices
-{
+.section-ourservices {
   padding: 50px 142px;
 }
 
-.section-ourservices-title
-{
+.section-ourservices-title {
   font-style: normal;
   font-weight: 800;
   font-size: 48px;
   line-height: 64px;
 }
 
-.section-ourservices-content
-{
+.section-ourservices-content {
   display: flex;
   justify-content: space-between;
+  padding: 50px 0px;
 }
 
-.section-ourservices-content-list
-{
+.section-ourservices-content-list {
   width: 27.5%;
-  padding : 60px 0px;
-
 }
-.section-ourservices-content-list-title
-{
+.section-ourservices-content-list-title {
   font-weight: 600;
   font-size: 24px;
-  line-height: 32px; 
-  padding: 20px 0px; 
+  line-height: 32px;
+  padding: 20px 0px;
 }
 
-.section-ourservices-content-list-description
-{
+.section-ourservices-content-list-description {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -145,14 +138,103 @@ body {
   text-align: justify;
 }
 
-.section-ourservices-button
-{
+.section-ourservices-button {
   padding: 30px 0;
   color: #5994ec;
 }
 
-.section-ourservices-content-list img 
-{
+.section-ourservices-content-list img {
   height: 80px;
   width: 80px;
+}
+
+/* sectiom our work */
+.section-ourwork {
+  padding: 60px 142px;
+}
+
+.section-ourwork-title {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+}
+
+.section-ourwork-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.section-ourwork-content-list {
+  width: 37.5vw;
+}
+
+.section-ourwork-content-list-image {
+  width: 550px;
+}
+
+.section-ourwork-content-list-image img {
+  width: 100%;
+}
+
+.section-ourwork-content-list-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  padding: 10px 0;
+}
+
+.section-ourwork-content-list-desc {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+/* Section Development */
+.section-dev {
+  padding: 60px 142px;
+}
+
+.section-dev-title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.section-dev-title-main {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  padding-bottom: 10px;
+}
+
+.section-dev-title-sub {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.section-dev-content {
+  display: flex;
+}
+
+.section-dev-content-list {
+  width: 25%;
+  padding: 50px 0;
+}
+
+.section-dev-content-list img {
+  width: 100%;
+}
+
+.section-dev-content-list-desc {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
 }
